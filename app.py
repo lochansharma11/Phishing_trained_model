@@ -27,7 +27,7 @@ pages = st.sidebar.radio("Go to", ["Home", "Detect Phishing", "About"])
 
 # Home Page
 if pages == "Home":
-    st.image("images/phishing-detection.png", use_container_width=True)
+    st.image("image/phishing-detection.png", use_container_width=True)
     st.markdown(
         """
         ## Why Choose PhishProtector?
@@ -143,7 +143,7 @@ if st.button("Check"):
 
 # Example Reports Section
 st.markdown("### Example Reports")
-st.image("images/url-phishing.webp", caption="Sample Analysis Report", use_container_width=True)
+st.image("image/url-phishing.webp", caption="Sample Analysis Report", use_container_width=True)
 
 # About Page 
 
