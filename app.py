@@ -143,7 +143,11 @@ if st.button("Check"):
 
 # Example Reports Section
 st.markdown("### Example Reports")
-st.image("image/url-phishing.webp", caption="Sample Analysis Report", use_container_width=True)
+st.image(
+    "images/url-phishing.webp",
+    caption="Sample Analysis Report",
+    use_container_width=True
+)
 
 # About Page 
 
