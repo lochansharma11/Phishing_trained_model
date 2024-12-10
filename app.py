@@ -121,30 +121,10 @@ if st.button("Check"):
     else:
         st.write("Please enter a valid URL.")
 
-
-
-   
-
-
-    
-
-
-
-       
-        
-
-
-
-
-
-
-
-    
-
 # Example Reports Section
 st.markdown("### Example Reports")
 st.image(
-    "image/url-phishing.webp",
+    "image/url phishing.webp",
     caption="Sample Analysis Report",
     use_container_width=True
 )
